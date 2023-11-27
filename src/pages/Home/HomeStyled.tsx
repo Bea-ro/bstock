@@ -54,7 +54,7 @@ export const HomeStyled = styled.main`
     gap: 40px;
     padding: 40px 0;
     animation: moveImages 12s linear infinite;
-    max-width: 100%;
+    overflow-x: hidden;
   }
 
   .skills {
@@ -117,6 +117,10 @@ export const HomeStyled = styled.main`
 
     .projects-text {
       max-width: 60%;
+    }
+
+    .techs-list {
+      gap: 30px;
     }
   }
 `;
