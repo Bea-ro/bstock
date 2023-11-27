@@ -5,7 +5,7 @@ import TechIcon from '../../components/TechIcon/TechIcon';
 import Title from '../../components/ui/Title/Title';
 import Logo from '../../components/Logo/Logo';
 import Stack from '../../components/Stack/Stack';
-import Skill from '../../components/Skill/skill';
+import Skill from '../../components/Skill/Skill';
 import Button from '../../components/ui/Button/Button';
 
 const Home = () => {
