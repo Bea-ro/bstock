@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const ProyectosStyled = styled.main`
   padding-top: 40px;
@@ -9,4 +9,4 @@ export const ProyectosStyled = styled.main`
   h3 {
     color: var(--color-primary);
   }
-`
+`;

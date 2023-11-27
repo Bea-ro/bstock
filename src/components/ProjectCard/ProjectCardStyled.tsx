@@ -1,4 +1,4 @@
-import { styled } from 'styled-components'
+import { styled } from 'styled-components';
 
 export const ProjectCardStyled = styled.li`
   border: 1px solid var(--color-white);
@@ -26,4 +26,4 @@ export const ProjectCardStyled = styled.li`
     font-size: 12px;
     color: var(--color-secondary);
   }
-`
+`;

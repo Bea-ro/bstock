@@ -7,7 +7,12 @@ const Contacto = () => {
   return (
     <ContactoStyled>
       <Title text="Contáctame" size="40px" />
-      <Title text="¡Tengo disponibilidad inmediata!" size="26px" color="var(--color-primary)" />
+      <Title
+        text="¡Tengo disponibilidad inmediata!"
+        size="26px"
+        color="var(--color-primary)"
+        align="center"
+      />
       <PersonalCard></PersonalCard>
     </ContactoStyled>
   );

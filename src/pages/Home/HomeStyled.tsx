@@ -54,6 +54,7 @@ export const HomeStyled = styled.main`
     gap: 40px;
     padding: 40px 0;
     animation: moveImages 12s linear infinite;
+    max-width: 100%;
   }
 
   .skills {
@@ -94,6 +95,28 @@ export const HomeStyled = styled.main`
     max-width: 60%;
     img {
       max-height: 421px;
+    }
+  }
+
+  @media screen and (max-width: 730px) {
+    .introduction {
+      flex-direction: column;
+      padding: 30px;
+    }
+    aside {
+      display: none;
+    }
+    .skill-container {
+      grid-template-columns: 1fr;
+      max-width: 100%;
+    }
+
+    .projects {
+      display: block;
+    }
+
+    .projects-text {
+      max-width: 60%;
     }
   }
 `;

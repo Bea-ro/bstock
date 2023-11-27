@@ -1,4 +1,4 @@
-import { Project } from '../types/project'
+import { Project } from '../types/project';
 
 export const projects: Project[] = [
   {
@@ -8,15 +8,7 @@ export const projects: Project[] = [
     main: true,
     description: 'Art API editable from fronted.',
     date: 'September 2023',
-    techs: [
-      'Next',
-      'TypeScript',
-      'React',
-      'Styled-Components',
-      'Node',
-      'Express',
-      'MongoDB'
-    ],
+    techs: ['Next', 'TypeScript', 'React', 'Styled-Components', 'Node', 'Express', 'MongoDB'],
     requirements: [
       'ISR',
       'React Hook Form',
@@ -107,11 +99,7 @@ export const projects: Project[] = [
     description: 'Tic, tac, toe, Hangman and Sudoku | React, JavaScript.',
     date: 'May 2023',
     techs: ['React', 'JavaScript', 'CSS3', 'Testing'],
-    requirements: [
-      'limit chances',
-      'include testing',
-      'bonus proposal: authentication required'
-    ],
+    requirements: ['limit chances', 'include testing', 'bonus proposal: authentication required'],
     github: 'https://github.com/Bea-ro/06-games-hub',
     projectURL: 'https://a-que-jugamos.netlify.app/'
   },
@@ -219,4 +207,4 @@ export const projects: Project[] = [
     github: 'https://github.com/Bea-ro/star-wars-api',
     projectURL: 'https://my-star-wars-api.netlify.app'
   }
-]
+];

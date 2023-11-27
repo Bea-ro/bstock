@@ -1,13 +1,22 @@
+import { useState } from 'react';
 import { HeaderStyled } from './HeaderStyled';
 
 import Navbar from '../ui/Navbar/Navbar';
 import Logo from '../Logo/Logo';
 
 const Header = () => {
+  const [mobileMenuIsOpen, setMobileMenuIsOpen] = useState<boolean>(false);
+
+  const openMobileMenu = () => {
+    setMobileMenuIsOpen(!mobileMenuIsOpen);
+  };
   return (
-    <HeaderStyled>
+    <HeaderStyled mobileMenuIsOpen={mobileMenuIsOpen}>
       <Logo size="32px"></Logo>
-      <Navbar></Navbar>
+      <span className="burguer" onClick={openMobileMenu}>
+        ☰
+      </span>
+      <Navbar mobileMenuIsOpen={mobileMenuIsOpen}></Navbar>
     </HeaderStyled>
   );
 };

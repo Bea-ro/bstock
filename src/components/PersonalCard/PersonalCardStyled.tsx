@@ -37,4 +37,17 @@ export const PersonalCardStyled = styled.div`
     color: var(--color-secondary);
     padding-top: 6px;
   }
+
+  @media screen and (max-width: 567px) {
+    flex-direction: column;
+    max-width: 80%;
+
+    .personal-name-title {
+      padding: 0 14px 14px 14px;
+    }
+
+    img {
+      margin: 14px 14px 0 14px;
+    }
+  }
 `;

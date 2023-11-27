@@ -25,4 +25,8 @@ export const SkillStyled = styled.li`
   p {
     color: var(--color-white);
   }
+
+  @media screen and (max-width: 567px) {
+    max-width: 90%;
+  }
 `;

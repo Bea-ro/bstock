@@ -1,4 +1,4 @@
-import { styled } from 'styled-components'
+import { styled } from 'styled-components';
 
 export const ProfilesListStyled = styled.ul`
   display: flex;
@@ -17,8 +17,4 @@ export const ProfilesListStyled = styled.ul`
   img:hover {
     animation: pulse 0.4s infinite alternate;
   }
-
-  @media screen and (max-width: 567px) {
-    display: none;
-  }
-`
+`;

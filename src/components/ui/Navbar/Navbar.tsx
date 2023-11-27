@@ -1,21 +1,25 @@
-import { NavbarStyled } from './NavbarStyled'
+import { NavbarStyled } from './NavbarStyled';
 
-const Navbar = () => {
+const Navbar = ({ mobileMenuIsOpen }: Props) => {
   return (
-    <NavbarStyled>
+    <NavbarStyled mobileMenuIsOpen={mobileMenuIsOpen}>
       <ul>
         <li>
-          <a href='/'>Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
-          <a href='/proyectos'>Proyectos</a>
+          <a href="/proyectos">Proyectos</a>
         </li>
         <li>
-          <a href='/contacto'>Contacto</a>
+          <a href="/contacto">Contacto</a>
         </li>
       </ul>
     </NavbarStyled>
-  )
-}
+  );
+};
 
-export default Navbar
+export type Props = {
+  mobileMenuIsOpen: boolean;
+};
+
+export default Navbar;
